@@ -4,3 +4,25 @@
     left: 212px;
     top: 30px;
 }
+header{
+    background-color: #f0fff0;
+}
+
+footer{
+    background-color: #282531;
+}
+
+.button-style{
+    
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+padding: 8px 28px;
+
+position: absolute;
+width: 137px;
+height: 35px;
+background: #21B573;
+border-radius: 33px;
+}
