@@ -1,3 +1,6 @@
+*{
+    border: 1px solid red;
+}
 .navbar-brand img{
     width: 200px;
     height: 60px;
@@ -21,6 +24,7 @@ color: white;
 border-radius: 10px;
 border: none;
 cursor: pointer;
+font-size: 16px;
 
 }
 
@@ -28,11 +32,14 @@ cursor: pointer;
     border: none;
     box-shadow: 5px 5px 10px lightgray;
     border-radius: 10px;
+    padding-top: 60px;
 }
 #overview .card{
     background-color:  #F8FFFB;
     width: 270px;
     height: 270px;
+    border: 1px solid red;
+    
 }
 
 #overview .card:hover{
@@ -43,4 +50,31 @@ cursor: pointer;
 #overview img{
     border:1px solid red;
     width: 70px;
+    
+}
+
+#overview{
+    margin-bottom: 100px;
+
+}
+
+.card-footer img{
+    width: 20px;
+}
+
+h6{
+    color: #fd511a;
+    font-size: 16px;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 48px;
+    width: 400px;
+}
+header span{
+    color: #21B573
+}
+header p{
+    width: 400px;
 }
