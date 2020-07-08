@@ -6,6 +6,7 @@
 }
 header{
     background-color: #f0fff0;
+    margin-bottom: 50px;
 }
 
 footer{
@@ -14,15 +15,32 @@ footer{
 
 .button-style{
     
-/* Auto Layout */
+padding: 9px 10px;
+background-color: #21B573;
+color: white;
+border-radius: 10px;
+border: none;
+cursor: pointer;
 
-display: flex;
-flex-direction: row;
-padding: 8px 28px;
+}
 
-position: absolute;
-width: 137px;
-height: 35px;
-background: #21B573;
-border-radius: 33px;
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+#overview .card{
+    background-color:  #F8FFFB;
+    width: 270px;
+    height: 270px;
+}
+
+#overview .card:hover{
+    background-color: white;
+}
+
+
+#overview img{
+    border:1px solid red;
+    width: 70px;
 }

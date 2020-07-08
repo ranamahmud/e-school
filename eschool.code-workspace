@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\hot-gadgets"
+		},
+		{
+			"path": "..\\panda-commerce"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "e-school"
+	}
+}
